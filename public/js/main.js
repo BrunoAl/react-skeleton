@@ -19124,7 +19124,5 @@ var Hello = require('./components/FB/Hello.jsx');
 var Timer = require('./components/FB/Timer.jsx');
 
 ReactDOM.render(React.createElement(List, null), document.getElementById('ingredients'));
-ReactDOM.render(React.createElement(Hello, { name: 'Bruno' }), document.getElementById('hello'));
-ReactDOM.render(React.createElement(Timer, null), document.getElementById('timer'));
 
 },{"./components/FB/Hello.jsx":159,"./components/FB/Timer.jsx":160,"./components/List.jsx":161,"react":158,"react-dom":29}]},{},[163]);
